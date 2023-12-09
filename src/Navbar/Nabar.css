@@ -1,0 +1,17 @@
+/* Common styles for active class */
+.active {
+    background: #0E7490;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Styles specific for mobile devices */
+@media only screen and (max-width: 768px) {
+    .active {
+        padding: 2px 2px 2px 0px;
+        
+        
+    }
+}
